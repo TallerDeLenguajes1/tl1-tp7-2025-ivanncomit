@@ -6,8 +6,13 @@ namespace EspacioCalculadora
 public class Calculadora
 {
     private double dato;
-    
-    public void Sumar(double termino)
+
+    public Calculadora(double dato = 0)
+    {
+        this.dato = dato;    
+    }
+
+        public void Sumar(double termino)
     {
         dato = termino + dato;
         Console.WriteLine(dato);
