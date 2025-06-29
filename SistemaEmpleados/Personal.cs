@@ -1,6 +1,6 @@
 namespace EspacioPersonal
-
 {
+    
     // Enumeración para los cargos
     public enum Cargos
     {
@@ -25,6 +25,3 @@ namespace EspacioPersonal
         public Cargos Cargo { get; set; }
     }
 }
-
-
-
